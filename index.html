@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambrose Honour | Real Estate Consultant Nigeria</title>
+    <meta name="description" content="Trusted real estate consultant in Nigeria. Land and property sales with clean titles and smooth transactions.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0f3460;
+            --accent: #e43f5a;
+            --light: #f8f9fa;
+            --green: #25d366;
+            --gray: #666;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: 'Poppins', sans-serif; background:#fff; color:#333; line-height:1.6; }
+        header { background:var(--primary); color:white; padding:3rem 1rem; text-align:center; }
+        header h1 { font-size:2.8rem; font-weight:700; margin-bottom:0.5rem; }
+        header p { font-size:1.3rem; max-width:800px; margin:0 auto; opacity:0.95; }
+        .whatsapp-fixed {
+            position:fixed; bottom:20px; right:20px; background:var(--green); color:white; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:30px; box-shadow:0 4px 15px rgba(0,0,0,0.2); z-index:1000; }
+        .whatsapp-fixed:hover { transform:scale(1.1); }
+        .whatsapp-btn {
+            display:inline-block; background:var(--green); color:white; padding:14px 32px; border-radius:50px; font-size:1.2rem; font-weight:600; text-decoration:none; margin:20px 0; box-shadow:0 4px 15px rgba(37,211,102,0.3); }
+        .whatsapp-btn:hover { transform:scale(1.05); }
+        nav { background:#16213e; padding:1rem 0; }
+        nav ul { list-style:none; display:flex; justify-content:center; flex-wrap:wrap; gap:1rem; }
+        nav a { color:white; text-decoration:none; padding:0.8rem 1.8rem; font-weight:500; border-radius:8px; }
+        nav a:hover { background:var(--accent); }
+        main { max-width:1200px; margin:0 auto; padding:2rem 1rem; }
+        .section { margin:4rem 0; }
+        .section h2 { font-size:2.3rem; color:var(--primary); text-align:center; margin-bottom:2rem; }
+        .about-text { font-size:1.2rem; text-align:center; max-width:900px; margin:0 auto; background:var(--light); padding:2.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.05); }
+        .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px,1fr)); gap:2rem; }
+        .card { background:white; border-radius:15px; overflow:hidden; box-shadow:0 8px 25px rgba(0,0,0,0.1); transition:0.3s; }
+        .card:hover { transform:translateY(-12px); box-shadow:0 20px 40px rgba(0,0,0,0.15); }
+        .card img { width:100%; height:250px; object-fit:cover; background:#eee; }
+        .card-content { padding:1.8rem; }
+        .card h3 { font-size:1.5rem; color:var(--primary); margin-bottom:0.8rem; }
+        .price { font-size:1.6rem; font-weight:700; color:var(--accent); margin:1rem 0; }
+        .faq { background:var(--light); padding:4rem 2rem; border-radius:15px; margin:4rem 0; }
+        .faq h2 { text-align:center; }
+        .faq details { margin:1.5rem 0; background:white; padding:1.5rem; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.05); }
+        .faq summary { font-weight:600; font-size:1.1rem; cursor:pointer; }
+        footer { background:var(--primary); color:white; text-align:center; padding:3rem 1rem; margin-top:5rem; }
+        .social-links a { color:white; margin:0 15px; font-size:1.8rem; }
+        @media (max-width:768px) {
+            header h1 { font-size:2.2rem; }
+            header p { font-size:1.1rem; }
+            nav ul { flex-direction:column; align-items:center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ambrose Honour</h1>
+        <p>Real Estate Consultant<br>
+        Specializing in seamless land acquisition and property investment across Nigeria.<br>
+        Clean titles | Proper documentation | Smooth transactions<br>
+        Your trusted partner for secure, profitable real estate decisions.</p>
+        <a href="https://wa.me/2349127005134?text=Hi%20Ambrose%2C%20I'm%20interested%20in%20your%20properties" class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i> Chat on WhatsApp Now
+        </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html">All Properties</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section about-text">
+            <p>Welcome! I help individuals and investors acquire genuine land and properties across Nigeria with 100% peace of mind. Every deal is backed by proper documentation and transparent processes.</p>
+        </section>
+
+        <section class="section">
+            <h2>Featured Properties</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/placeholder.jpg" alt="Land in Epe">
+                    <div class="card-content">
+                        <h3>Odelewu Community, Epe</h3>
+                        <p>Plots near Epe Tollgate with landmarks: Nigerian Brewery, Christ the King College</p>
+                        <div class="price">Price varies by sqm</div>
+                        <a href="properties/property1.html">View Details →</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/placeholder.jpg" alt="Land in Ogun State">
+                    <div class="card-content">
+                        <h3>Isiwo, Ogun State</h3>
+                        <p>300sqm, 500sqm, 1000sqm available</p>
+                        <div class="price">From ₦1.8 Million</div>
+                        <a href="properties/property2.html">View Details →</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/placeholder.jpg" alt="Land in Imo State">
+                    <div class="card-content">
+                        <h3>Oforola/Umuokanne, Owerri</h3>
+                        <p>Table land with good road network and drainage</p>
+                        <div class="price">₦3.75 Million per plot</div>
+                        <a href="properties/property3.html">View Details →</a>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align:center; margin-top:3rem;">
+                <a href="properties.html" style="font-size:1.3rem; color:var(--primary); font-weight:600;">View All 7 Properties →</a>
+            </p>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>How do I know the land is genuine?</summary>
+                <p>I handle full title verification and due diligence. You get clean documents before payment.</p>
+            </details>
+            <details>
+                <summary>Can I pay in installments?</summary>
+                <p>Yes — flexible payment plans available on most properties. Let's discuss on WhatsApp.</p>
+            </details>
+            <details>
+                <summary>How soon can I start building?</summary>
+                <p>Many locations are buy-and-build ready. Immediate allocation after full payment.</p>
+            </details>
+            <details>
+                <summary>Do you help with documentation?</summary>
+                <p>Yes — survey, deed of assignment, registration all handled smoothly.</p>
+            </details>
+            <p style="text-align:center; margin-top:2rem;">
+                <a href="https://wa.me/2349127005134?text=Hi%20Ambrose%2C%20I%20have%20a%20question" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Ask Me Anything on WhatsApp
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <a href="https://wa.me/2349127005134?text=Hi%20Ambrose" class="whatsapp-fixed" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p><strong>Ambrose Honour</strong> | Phone & WhatsApp: +234 912 700 5134 | honoura01@gmail.com</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/14Ss3womLXq/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ambrosehonour" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.threads.net/@ambrosehonour" target="_blank"><i class="fab fa-threads"></i></a>
+            <a href="https://www.linkedin.com/in/ambrose-honour-157b35333" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 Ambrose Honour. All rights reserved.</p>
+    </footer>
+</body>
+</html>
